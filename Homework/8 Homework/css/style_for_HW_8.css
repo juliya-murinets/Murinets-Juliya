@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*CSS Document*/
+
+/*font-family: 'open_sansbold';
+    font-family: 'open_sansbold_italic';
+    font-family: 'open_sansextrabold';
+    font-family: 'open_sansitalic';
+    font-family: 'open_sanslight';
+    font-family: 'open_sanslight_italic';
+    font-family: 'open_sansregular';
+    font-family: 'open_sanssemibold';
+    font-family: 'open_sanssemibold_italic';
+*/
+
+  
+.background {
+    background-image: url(img/wedding_dress.jpeg);
+    background-size: 100%;
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    
+    
+}
+.container{
+    width: 1170px; 
+    margin: 0 auto
+}
+
+
+.class1{
+
+width:50%;
+color:white;
+}
+
+h1{
+text-align: center;
+text-transform: uppercase;
+font-size: 30px;
+}
+
+p{
+    text-transform: lowercase;
+    text-indent: 20px;
+}
+
+.class2{
+     width: 50%;
+}
