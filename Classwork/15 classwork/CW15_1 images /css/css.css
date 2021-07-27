@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.image{
+    width: 1000px;
+    height: 800px;
+}
+.image img{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.image img:hover{
+    border: solid 5px rgb(65, 65, 56);
+    opacity: 0.8;

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*css document*/
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    
+}
+
+
+.img{
+    float: left;
+    width: 275px;
+    height: 183px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+img{
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+.img_3{
+    margin-top: unset;
+    margin-bottom: unset;
+    margin-right: 20px;
+
+}
+p{
+    text-align: justify;
+    padding-right: 94px;
+    margin-left: 50px;
+}
+    
+.clear{
+    clear: both;
+}
+

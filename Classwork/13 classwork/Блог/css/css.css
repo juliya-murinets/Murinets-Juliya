@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    margin-bottom: 50px;
+    background-image: #ccc;
+}
+body,html{
+    height: 100%;
+}
+.for_page{
+    position: relative;
+    min-height: 100%;
+}
+.page{
+    padding-bottom: 100px;
+
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgb(129, 117, 117);
+    height: 100px;
+    width: 100%;
+}
+.content{
+    margin-bottom: 60px;
+}
+.clear{
+    clear: both;
+}
+.item-blog{
+    float: left;
+    width: 375px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-bottom: 40px;
+}
+img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.content .container .item-blog:nth-child(4){
+    clear: both;
+}
+.content .container .item-blog:nth-child(7){
+    clear: both;
+}
+.content .container .item-blog:nth-child(10){
+    clear: both;
+}
+
+.item-blog h2{
+    margin: 13px 0;
+    text-transform: uppercase;
+    min-height: 57px;
+
+}
+.item-blog h2 a{
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    text-decoration: none;
+    color:#333
+}
+.item-blog h2 a:hover{
+    color: rgb(54, 26, 156);
+}
+.expert_description{
+    max-height: 113px;
+    overflow: hidden;
+}
+.item-blog .btn_blog{
+    width: 151px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background: #06267B;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+
+}.item-blog .btn_blog:hover{
+background: #087c8b;
+}
+.image-blog {
+    position: relative;
+    overflow: hidden;
+    max-height: 201px;
+}
+.image-blog:hover:before {
+    content:"#";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.6);
+}
+.text_before{
+    display: none;
+    font-size: 20px;
+    color:#fff;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+}
+
+.image-blog:hover .text_before{
+display: block;
+left: 39%;
+top: 50%;
+letter-spacing: 5px;
+
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*css document*/
+
+.nav ul.menu{
+    font-size: 16px;
+    background: rgb(211, 154, 192);
+    color: rgb(72, 42, 119);
+}
+.nav ul.menu li ul.sub-menu{
+    font-size: 16px;
+    background: silver; 
+}
+.nav ul.menu li ul.sub-menu li ul.sub-menu2{
+    background: rgb(112, 161, 177);
+} 
+.nav ul.menu li.item a{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(10, 131, 125);
+}
+
+.hover_link{
+    display: block;
+    text-decoration:none;
+    color: darkblue;
+    background: rgb(228, 203, 186);
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    font-size: 30px;
+}
+.hover_link:hover{
+    color: darkred;
+    background: rgb(98, 169, 179);
+    text-decoration: none;
+}
+.link{
+    color: forestgreen;
+   }
+
+.link:visited{
+    color: coral;
+}
+.input:focus{
+    border: solid 5px green;
+    color: rgb(123, 21, 219); 
+}
+
+
+
+    
+   

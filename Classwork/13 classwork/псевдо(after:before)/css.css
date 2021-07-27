@@ -1,0 +1,11 @@
+.box{
+    width: 500px;
+    margin: 0 auto;
+}
+.call{
+    display: block;
+    font-size: 18px;
+    color:#333;
+    font-weight: bold;
+    text-decoration: none;
+}

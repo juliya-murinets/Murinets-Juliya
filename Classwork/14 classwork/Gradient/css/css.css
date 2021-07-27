@@ -1,0 +1,71 @@
+
+
+.lianer{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.grad_lianer1{
+    background: linear-gradient(to right, #E90609, #e9d206 );
+
+}
+.grad_lianer2{
+    background: linear-gradient(to bottom, #E90609, #e9d206 );
+    
+}
+.grad_lianer3{
+    background: linear-gradient(-20deg, #E90609, #e9d206 );
+    
+}
+.grad_lianer4{
+    background: linear-gradient(#E90609, #e9d206, green);
+    
+}
+.grad_lianer5{
+    background: linear-gradient(to right, #E90609, #e9d206, purple, blue, pink);
+    
+}
+.grad_lianer6{
+    background: linear-gradient(to right, rgba(255,0,0,0),rgba(0,0,0,1) );
+    
+}
+.grad_lianer7{
+    background: linear-gradient(red, green 10%, yellow 20%);
+    
+}
+
+.radial{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.radial1{
+background: radial-gradient(yellow,red,green);
+}
+.radial2{
+    background: radial-gradient(yellow 5%,red 15%,green 60%);
+    
+}
+.radial3{
+    background: radial-gradient(circle, yellow,red,green);
+    
+}
+.radial-key4{
+    background: radial-gradient(closest-side at 60% 55%,red, yellow, green);
+ 
+}
+.radial-key5{
+    background: radial-gradient(farthest-side at 60% 55%,red, yellow, green);
+    
+}
+.radial-key6{
+    background: radial-gradient(closest-corner at 60% 55%,red, yellow, green);
+    
+}
+.radial-key7{
+    background: radial-gradient(farthest-corner at 60% 55%,red, yellow, green);
+    
+}
+.radial-key8{
+    background: repeating-radial-gradient(red, yellow 10%, green 15%);
+    }

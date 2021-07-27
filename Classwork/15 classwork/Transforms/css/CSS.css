@@ -1,0 +1,33 @@
+/*CSS Document*/
+.box{
+    width: 200px;
+    height: 100px;
+    background: #929292;
+    opacity: 0.8;
+    transition: 0.7s;
+    margin-bottom: 30px;
+}
+.box:hover{
+    background: rgba(176, 138, 168, 0.8);
+    
+}
+.box1:hover{
+    transform: translateX(40px);
+}
+
+.box2:hover{
+    transform: translateY(-25px);
+}
+
+.box3:hover{
+    transform: scale(2,3);
+}
+
+.box4:hover{
+    transform: rotate(20deg);
+}
+
+.box5:hover{
+    transform: skew(20deg,30deg);
+    
+}

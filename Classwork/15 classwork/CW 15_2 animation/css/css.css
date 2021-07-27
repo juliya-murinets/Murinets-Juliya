@@ -1,0 +1,33 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background: rgb(174, 76, 194);
+    position: relative;
+    animation-name: square;
+    animation-duration:5s;
+    animation-iteration-count: 3;
+}
+@keyframes square{
+    from{
+        top:0;
+        left:0;
+    }
+    25%{
+        top: 0;
+        left: 400px;
+        background: rgb(80, 146, 221);
+    }
+    50%{
+        top:400px;
+        left:400px;
+        background: rgb(85, 226, 179);
+    }
+    75%{
+        top:400px;
+        left: 0;
+        background: rgb(212, 221, 80);
+    }
+    to{
+        top:0;
+        background: rgb(221, 120, 80);
+    }

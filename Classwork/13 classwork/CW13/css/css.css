@@ -1,0 +1,14 @@
+/*css document*/
+.menu{
+    list-style: none;
+}
+.menu_item{
+    position: relative;
+    padding: 0 20px;
+}
+.menu_item::after{
+    content:"*" ;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}

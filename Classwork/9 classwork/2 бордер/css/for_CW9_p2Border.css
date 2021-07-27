@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*CSS Document*/
+
+.main_background {
+background-image: url(img/sky.jpeg);
+background-size: 100%;
+padding: 200px 0px;
+background-repeat: no-repeat;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+h1{
+text-align: center;
+ text-transform: uppercase;
+ color: rgb(67, 70, 73);
+}
+
+.border {
+    border: solid 3px whitesmoke;
+    width: 100%;
+    height: 200px;
+    margin: 30px auto;
+    
+}
+p{
+    text-align: justify;
+}

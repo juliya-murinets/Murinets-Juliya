@@ -1,0 +1,35 @@
+@meta charset "UTF-8";
+
+/*css document*/
+.nav ul.menu{
+    background: cornflowerblue;
+}
+
+.nav ul.menu a:hover{
+    background: rgb(45, 42, 209);
+    color: white;
+}
+
+.nav ul.menu li ul.menu_cities{
+    background: rgb(224, 199, 134);
+} 
+.nav ul.menu li ul.menu_cities a:hover{
+    background: rgb(136, 100, 8);
+    color: white;
+     }
+
+.nav ul.menu li ul.menu_cities li ul.school{
+    background: darkseagreen;
+}
+
+.nav ul.menu li ul.menu_cities li ul.school a:hover{
+    background: rgb(3, 65, 29);
+    color: white;
+}
+
+    
+
+
+    
+
+    

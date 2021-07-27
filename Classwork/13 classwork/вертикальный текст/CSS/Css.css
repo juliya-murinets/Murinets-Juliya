@@ -1,0 +1,10 @@
+/*css document*/
+.test1{
+    writing-mode: horizontal-tb;
+}
+span.test2{
+    writing-mode: vertical-rl;
+}
+p.test2{
+    writing-mode: vertical-rl;
+}

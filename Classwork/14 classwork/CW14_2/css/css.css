@@ -1,0 +1,14 @@
+
+
+.flag{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.flag1{
+    background: linear-gradient(to bottom, red 33%, white 33% 66%,  red 66% );
+}
+.flag_ukraine{
+    background: linear-gradient(yellow 50%, blue 50%);
+}
